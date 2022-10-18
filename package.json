@@ -1,0 +1,24 @@
+{
+  "name": "stunning-octo-waddle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKryz/stunning-octo-waddle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanKryz/stunning-octo-waddle/issues"
+  },
+  "homepage": "https://github.com/NathanKryz/stunning-octo-waddle#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
