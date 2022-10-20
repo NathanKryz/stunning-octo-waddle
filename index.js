@@ -222,8 +222,6 @@ function updateEmployee(data){
     // Grabs ID of employee and desired role, runs update query.
     const paramID = data.updID;
     const paramRole = data.updRole;
-    console.log(paramID);
-    console.log(paramRole);
     db.query(`UPDATE employee SET role_id = ${paramRole} WHERE id = ${paramID};`,(err, result) => {
         console.log("Employee Successfully updated!");
         return result;
